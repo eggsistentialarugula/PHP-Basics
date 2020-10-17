@@ -1,1 +1,1 @@
-<?php echo "hello I want to die"; ?>
+<?php echo "hello world"; ?>

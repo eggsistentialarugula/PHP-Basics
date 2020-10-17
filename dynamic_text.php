@@ -8,7 +8,7 @@
 <body>
 
     <?php 
-    $title = "I HATE MY LIFE";
+    $title = "Title";
     ?>
     <h1><?php echo $title; ?></h1>
 </body>

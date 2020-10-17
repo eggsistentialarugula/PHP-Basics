@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-$number = array('jeannie', 'janice', 'alice');
+$number = array('annie1', 'annie2', 'annie3');
 
 print_r($number);
 //echo $number[2] . "<br>";
