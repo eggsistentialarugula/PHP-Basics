@@ -1,0 +1,1 @@
+<?php echo "hello I want to die"; ?>
