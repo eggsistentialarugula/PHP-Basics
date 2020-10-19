@@ -6,15 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
+<?php
+$x = "outside"; //global
+function convert(){
+    global $x;
+    $x = "inside"; //local
+}
 
-    $counter = 0;
-    while($counter < 10){
-        echo $counter;
-        $counter++;
-        // $counter = $counter + 1;
-    }
+echo $x . "<br>";
 
-    ?>
+convert();
+
+echo $x;
+
+?>
 </body>
 </html>

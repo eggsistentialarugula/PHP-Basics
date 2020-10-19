@@ -8,11 +8,10 @@
 <body>
     <?php
 
-    $counter = 0;
-    while($counter < 10){
-        echo $counter;
-        $counter++;
-        // $counter = $counter + 1;
+    $numbers = array(345, 397, 676, 385, 2657, 5784);
+
+    foreach($numbers as $number){
+        echo $number . "<br>";
     }
 
     ?>
